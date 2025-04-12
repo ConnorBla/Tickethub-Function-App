@@ -37,8 +37,6 @@ namespace TicketAppFunction
 
             _logger.LogInformation("Purchase: " + purchase);
 
-            //add to DB
-
             // get connection string from app settings
             string? connectionString = Environment.GetEnvironmentVariable("SqlConnectionString");
 
